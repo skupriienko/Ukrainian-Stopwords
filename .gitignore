@@ -1,239 +1,200 @@
-# Installer logs
-pip-log.txt
-
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# SQLite databases
-*.sqlite
-
-# Virtual environment
-venv
-
-# Environment files
-.env
-.env-mysql
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
-.cache/
-
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Packages
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-lib
-lib64
-__pycache__
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-myvenv
-
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# Editors
-.vscode/
-.idea/
-.idea/*
-
-# Vagrant
-.vagrant/
-
-# Mac/OSX
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-
-
-# my_ignores
-node_modules
-tdd
-.history
+*$py.class
+**/.idea/dataSources.ids
+**/.idea/dataSources.local.xml
+**/.idea/dataSources.xml
+**/.idea/dictionaries
+**/.idea/dynamic.xml
+**/.idea/jsLibraryMappings.xml
+**/.idea/sqlDataSources.xml
+**/.idea/tasks.xml
+**/.idea/uiDesigner.xml
+**/.idea/vcs.xml
+**/.idea/workspace.xml
+**/__pycache__/*.pyc
+**/staticfiles/
 *.code-workspace
+*.cover
+*.egg
+*.egg-info/
 *.gz
-*.zip
+*.iml
+*.iws
+*.log
+*.manifest
+*.mo
+*.pot
+*.cover
+*.py[cod]
+*.pyc
 *.rar
-.idea/
-
-secret_key.txt
-
-*.sqlite3
-.python-version
-staticfiles/
-uploads/
-local_settings.py
+*.sage.py
+*.so
+*.spec
+*.sqlite
+*.zip
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+*/__pycache__/*.pyc
+*/staticfiles/
 .anvil/*
-.Python
-/bin
-/lib
-/src
-/include
+.cache
 .coverage
-node_modules/
-
+.coverage.*
+.dmypy.json
+.DS_Store
+.eggs/
+.elasticbeanstalk/*
+.env
+.env-mysql
+.history
+.hypothesis/
+.idea/
+.idea/*
+.idea/**/contentModel.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dataSources/
+.idea/**/dbnavigator.xml
+.idea/**/dictionaries
+.idea/**/dynamic.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/mongoSettings.xml
+.idea/**/shelf
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/uiDesigner.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/*.iml
+.idea/caches/build_file_checksums.ser
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dictionaries
+.idea/dynamic.xml
+.idea/gradle.xml
+.idea/httpRequests
+.idea/jsLibraryMappings.xml
+.idea/libraries
+.idea/modules
+.idea/modules.xml
+.idea/mongoSettings.xml
+.idea/replstate.xml
+.idea/sqlDataSources.xml
+.idea/tasks.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea_modules/
+.installed.cfg
+.ipynb_checkpoints
+.mr.developer.cfg
+.mypy_cache/
+.nox/
+.prof
+.project
+.pybuilder/
+.pydevproject
+.pyre/
+.pytest_cache/
+.Python
+.python-version
+.pytype/
+.ropeproject
+.scrapy
+.spyderproject
+.spyproject
+.tox
+.vagrant/
+.venv
+.vscode/
+.webassets-cache
+/bin
+/include
+/lib
+/out/
+/site
+/src
 /static
-static/media
+__pycache__
+__pycache__/
+__pypackages__/
+atlassian-ide-plugin.xml
+bin
+build
+build/
+celerybeat.pid
+celerybeat-schedule
+cmake-build-*/
+com_crashlytics_export_strings.xml
+cover/
+coverage.xml
+crashlytics.properties
+crashlytics-build.properties
+cython_debug/
+db.sqlite3
+db.sqlite3-journal
+develop-eggs
+develop-eggs/
+dist
+dist/
+dmypy.json
+docs/_build/
+downloads/
+eggs
+eggs/
+env.bak/
+env/
+ENV/
+fabric.properties
+flaskos/
+htmlcov/
+instance/
+ipython_config.py
+lib
+lib/
+lib64
+lib64/
+local_settings.py
+MANIFEST
+media
+myvenv
+node_modules
+node_modules/
+nosetests.xml
+parts
+parts/
+pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+profile_default/
+projects/static/
+pytestdebug.log
+pythonenv*
+sdist
+sdist/
+secret_key.txt
+share/python-wheels/
 static/build/
 static/local/
+static/media
 static/rev-manifest.json
+staticfiles/
+target/
+tdd
 temp/
+Thumbs.db
 tmp/
-
-flaskos/
+uploads/
+var
+var/
+venv
+venv.bak/
+venv/
+wheels/
+.gitignore
+Makefile
